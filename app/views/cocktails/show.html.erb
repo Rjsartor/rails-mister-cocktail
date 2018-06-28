@@ -1,0 +1,11 @@
+<h1>Show</h1>
+<p>Find me in app/views/cocktails/show.html.erb</p>
+
+<h1><%= @cocktail.name %></h1>
+  <p><%= @cocktail.ingredients %></p>
+  <p><%= @cocktail.doses %></p>
+
+
+<%= link_to cocktails_path do %>
+  <i class="fa fa-history"></i> Back to list
+<% end %>
